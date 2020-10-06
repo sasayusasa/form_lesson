@@ -1,1 +1,64 @@
 @charset "utf-8";
+
+.wrapper {
+  padding: 32px 0;
+  width: 100%;
+  background-color: #f2f6f7;
+}
+
+.inner {
+  margin: 0 auto;
+  width: 640px;
+}
+
+.maine {
+  box-sizing: border-box;
+  margin-bottom: 32px;
+  padding: 48px 64px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, .18);
+}
+
+.title {
+  text-align: center;
+  color: #545658;
+  font-size: 24px;
+}
+
+.columns {
+  display: flex;
+  margin-top: 24px;
+  width: 50%;
+}
+
+.column {
+  width: 100%;
+}
+
+.start-button {
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  transition: .3s;
+  padding: 13px;
+  font-size: 13px;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.facebook-button {
+
+}
+
+.google-button {
+
+}
+
+.start-button__text {
+  color: #949697;
+  font-size: 12px;
+  margin-top: 8px;
+  text-align: center;
+}
